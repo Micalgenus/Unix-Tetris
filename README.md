@@ -26,6 +26,11 @@
     
 #Set terminfo environment variable
 
+    if [ -f ~/.bash_profile ] || [ -f /etc/issue ]; then
+      PROFILE_PATH=$HOME"/.bash_profile"
+    elif [ -f ~/.profile ] || [ -f /etc/version ]; then
+      PROFILE_PATH=$HOME"/.profile"
+    fi
     echo "TERMINFO="$NCURSES_PATH"/share/terminfo/" >> $PROFILE_PATH
     echo "export TERMINFO" >> $PROFILE_PATH
     echo "LANG=ko_KR.eucKR" >> $PROFILE_PATH
