@@ -16,7 +16,8 @@
     
     if [ -n $PROFILE_PATH ]; then
       NCURSES_PATH=$PWD
-      echo "NCURSES_PATH="$PWD >> ~/.bash_profile
+      echo "NCURSES_PATH="$PWD >> $PROFILE_PATH
+      echo "export NCURSES_PATH" >> $PROFILE_PATH
     fi
     
     # ncurses header file link
