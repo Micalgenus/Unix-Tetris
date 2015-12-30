@@ -9,9 +9,9 @@
     cd ..
     
     if [ -f ~/.bash_profile ] || [ -f /etc/issue ]; then
-      PROFILE_PATH="~/.bash_profile"
+      PROFILE_PATH=$HOME"/.bash_profile"
     elif [ -f ~/.profile ] || [ -f /etc/version ]; then
-      PROFILE_PATH="~/.profile"
+      PROFILE_PATH=$HOME"/.profile"
     fi
     
     if [ -n $PROFILE_PATH ]; then
