@@ -3,7 +3,7 @@
 
 #include "tetris_data.h"
 
-#define BLOCK ("■")
+#define BLOCK ("\xa1\xe1") // ■
 #define BLOCK_NONE	("  ")
 #define BLOCK_HIDE	("")
 
