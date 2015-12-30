@@ -1,7 +1,3 @@
-#!/bin/sh
-
-# Unix-Tetris
-
 # install ncurses
 wget ftp://ftp.gnu.org/gnu/ncurses/ncurses-6.0.tar.gz
 tar xvf ncurses-6.0.tar.gz
