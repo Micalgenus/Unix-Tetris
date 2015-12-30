@@ -20,12 +20,12 @@
     
     # ncurses header file link
     ln -s $NCURSES_PATH/include/ncurses/ncurses.h $NCURSES_PATH/include/
-    source ~/.bash_profile
+    source $PROFILE_PATH
 
 #Set terminfo environment variable
 
-    echo "TERMINFO="$NCURSES_PATH"/share/terminfo/" >> ~/.bash_profile<br />
-    echo "export TERMINFO" >> ~/.bash_profile<br />
-    echo "LANG=ko_KR.eucKR" >> ~/.bash_profile<br />
-    echo "export LANG" >> ~/.bash_profile<br />
-    source ~/.bash_profile
+    echo "TERMINFO="$NCURSES_PATH"/share/terminfo/" >> $PROFILE_PATH
+    echo "export TERMINFO" >> $PROFILE_PATH
+    echo "LANG=ko_KR.eucKR" >> $PROFILE_PATH
+    echo "export LANG" >> $PROFILE_PATH
+    source $PROFILE_PATH
