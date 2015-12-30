@@ -1,4 +1,4 @@
-#Install ncurses
+###Install ncurses
 
     wget ftp://ftp.gnu.org/gnu/ncurses/ncurses-6.0.tar.gz
     tar xvf ncurses-6.0.tar.gz
@@ -24,7 +24,7 @@
     ln -s $NCURSES_PATH/include/ncurses/ncurses.h $NCURSES_PATH/include/
     source $PROFILE_PATH
     
-#Set terminfo environment variable
+###Set terminfo environment variable
 
     if [ -f ~/.bash_profile ] || [ -f /etc/issue ]; then
       PROFILE_PATH=$HOME"/.bash_profile"
