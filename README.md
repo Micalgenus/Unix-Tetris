@@ -15,6 +15,7 @@
     fi
     
     if [ -n $PROFILE_PATH ]; then
+      NCURSES_PATH=$PWD
       echo "NCURSES_PATH="$PWD >> ~/.bash_profile
     fi
     
