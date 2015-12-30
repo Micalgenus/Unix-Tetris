@@ -12,5 +12,3 @@ echo "export TERMINFO" >> ~/.bash_profile<br />
 echo "LANG=ko_KR.eucKR" >> ~/.bash_profile<br />
 echo "export LANG" >> ~/.bash_profile<br />
 source ~/.bash_profile
-
-#Please This command Execute.
