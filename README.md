@@ -20,10 +20,10 @@
       echo "export NCURSES_PATH" >> $PROFILE_PATH
     fi
     
-    # ncurses header file link
+    # ncurses header file link setting
     ln -s $NCURSES_PATH/include/ncurses/ncurses.h $NCURSES_PATH/include/
     source $PROFILE_PATH
-
+    
 #Set terminfo environment variable
 
     echo "TERMINFO="$NCURSES_PATH"/share/terminfo/" >> $PROFILE_PATH
