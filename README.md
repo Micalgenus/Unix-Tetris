@@ -1,4 +1,4 @@
-# install ncurses
+#Install ncurses
 wget ftp://ftp.gnu.org/gnu/ncurses/ncurses-6.0.tar.gz<br />
 tar xvf ncurses-6.0.tar.gz<br />
 cd ncurses-6.0<br />
@@ -6,11 +6,11 @@ cd ncurses-6.0<br />
 make<br />
 make install<br />
 
-# set terminfo environment variable
+#Set terminfo environment variable
 echo "TERMINFO=/usr/share/terminfo/" >> ~/.bash_profile<br />
 echo "export TERMINFO" >> ~/.bash_profile<br />
 echo "LANG=ko_KR.eucKR" >> ~/.bash_profile<br />
 echo "export LANG" >> ~/.bash_profile<br />
 source ~/.bash_profile
 
-# Please This command Execute.
+#Please This command Execute.
